@@ -1,0 +1,12 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+pai_postman:
+    type: rest
+    prefix: /api
+    resource: '@AppBundle/Resources/config/routing.yml'
+
+pai_postman_angular:
+    resource: "@AppBundle/Controller"
+    type: annotation

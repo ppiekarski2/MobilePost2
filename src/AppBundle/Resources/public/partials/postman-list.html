@@ -1,0 +1,19 @@
+<table border=1>
+    <tr>
+        <th>username</th>
+        <th>password</th>
+        <th>city</th>
+        <th>phone</th>
+        <th>email</th>
+    </tr>
+    <tr ng-repeat="postman in postmans">
+        <td>{{postman.username}}</td>
+        <td>{{postman.password}}</td>
+        <td>{{postman.city}}</td>
+        <td>{{postman.phone}}</td>
+        <td>{{postman.email}}</td>
+        </li>
+    </tr>
+    </table>
+<br/>
+<input type="button" ng-redirect-to="#new" value="Create Postman" />

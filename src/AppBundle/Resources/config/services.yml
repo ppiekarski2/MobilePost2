@@ -1,0 +1,7 @@
+parameters:
+    app.postman.class: AppBundle\Entity\Postman
+
+services:
+    app.postman_form.handler:
+        class: AppBundle\Handler\PostmanFormHandler
+        arguments: ['@doctrine.orm.entity_manager', %app.postman.class%, '@form.factory', 'AppBundle\Form\PostmanType']
