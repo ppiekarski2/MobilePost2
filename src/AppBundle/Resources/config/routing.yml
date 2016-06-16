@@ -7,3 +7,9 @@ app_Postman:
     prefix: /v1
     resource: 'AppBundle\Controller\PostmanController'
     name_prefix: api_1_ #naming collision
+	
+app_parcel_order:
+    type: rest
+    prefix: /v2
+    resource: 'AppBundle\Controller\ParcelOrderController'
+    name_prefix: api_2_

@@ -28,7 +28,7 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "^2.0",
         "friendsofsymfony/rest-bundle": "@dev",
-        "jms/serializer-bundle": "^1.1",
+        "jms/serializer-bundle": "@dev",
         "friendsofsymfony/user-bundle": "@dev",
         "symfony/assetic-bundle": "^2.8"
     },
