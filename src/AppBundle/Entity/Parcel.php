@@ -20,6 +20,7 @@ class Parcel
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
+	private $parcelOrders;
 
     /**
      * @var float

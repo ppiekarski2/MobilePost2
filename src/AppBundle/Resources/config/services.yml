@@ -1,7 +1,10 @@
 parameters:
     app.postman.class: AppBundle\Entity\Postman
-
+    app.parcelorder.class: AppBundle\Entity\ParcelOrder
 services:
     app.postman_form.handler:
         class: AppBundle\Handler\PostmanFormHandler
         arguments: ['@doctrine.orm.entity_manager', %app.postman.class%, '@form.factory', 'AppBundle\Form\PostmanType']
+    app.parcelorder_form.handler:
+        class: AppBundle\Handler\ParcelOrderFormHandler
+        arguments: ['@doctrine.orm.entity_manager', %app.parcelorder.class%, '@form.factory', 'AppBundle\Form\ParcelOrderType']

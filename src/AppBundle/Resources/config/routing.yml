@@ -13,3 +13,9 @@ app_parcel_order:
     prefix: /v2
     resource: 'AppBundle\Controller\ParcelOrderController'
     name_prefix: api_2_
+	
+app_ParcelOrder:
+    type: rest
+    prefix: /v3
+    resource: 'AppBundle\Controller\ParcelOrderController'
+    name_prefix: api_3_ #naming collision
