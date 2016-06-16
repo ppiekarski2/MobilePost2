@@ -8,9 +8,8 @@
 	
 	class ParcelOrderController extends FOSRestController
 	{
-		public function getParcelOrderAction($id)
+		public function getParcelOrdersAction()
 		{
-			
 		    return $this->getDoctrine()->getRepository('AppBundle:ParcelOrder')
             ->findAll();
     	}
