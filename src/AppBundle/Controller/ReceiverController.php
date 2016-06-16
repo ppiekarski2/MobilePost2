@@ -20,3 +20,4 @@ class ReceiverController extends FOSRestController {
 		$receiver=$this->getDoctrine()->getRepository('AppBundle:AddressData')->find($id);
 		return $receiver;
 	}
+}
