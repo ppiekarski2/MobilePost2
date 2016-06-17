@@ -23,20 +23,6 @@ class Postman extends BaseUser implements PostmanInterface
      */
     protected $id;
 
-	/**
-+     * @var string
-+     *
-+     * @ORM\Column(name="first_name", type="string", length=255)
-+     */
-+    private $first_name;
-+
-+    /**
-+     * @var string
-+     *
-+     * @ORM\Column(name="last_name", type="string", length=255)
-+     */
-+    private $last_name;
-
     /**
      * @var string
      *
@@ -44,12 +30,7 @@ class Postman extends BaseUser implements PostmanInterface
      */
     private $phone;
 
-	 /**
-     * @var string
-     *
-     * @ORM\Column(name="email", type="string", length=255)
-     */
-    private $email;
+	 
 
     /**
      * @var string
@@ -141,29 +122,7 @@ class Postman extends BaseUser implements PostmanInterface
         return $this->phone;
     }
 
-	/**
-     * Set email
-     *
-     * @param string $email
-     *
-     * @return Postman
-     */
-    public function setEmail($email)
-    {
-        $this->email = $email;
-
-        return $this;
-    }
-
-   /**
-    * Get email
-	 *
-     * @return string
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
+	
 	
     /**
      * Set city
