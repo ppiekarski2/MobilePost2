@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var parcelorderControllers = angular.module('parcelorderControllers', []);
+var parcelorderControllers = angular.module('parcelorderControllers' []);
 
 parcelorderControllers.controller('ParcelOrderListCtrl', ['$scope', 'ParcelOrder',
   function($scope, ParcelOrder) {

@@ -4,8 +4,6 @@
 		<th>Parcel ID</th>
 		<th>Sender ID</th>
 		<th>Sender name</th>
-		<th>Sender last name</th>
-		<th>Sender city</th>
 		<th>Receiver ID </th>
 		<th>Tracking</th>
 	</tr>
@@ -14,7 +12,7 @@
 		<td>{{parcelorder.sender}}</td>
 		<td>{{parcelorder.sender.first_name}}</td>
 		<td>{{parcelorder.sender.last_name}}</td>
-		<td>{{parcelorder.sender.city}}</td>
+		<td>{{
 		<td>{{parcelorder.receiver}}</td>
 		<td>{{parcelorder.tracking}}</td>
 	</tr>
